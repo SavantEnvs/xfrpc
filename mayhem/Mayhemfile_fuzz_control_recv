@@ -1,0 +1,9 @@
+project: savantenvs/xfrpc
+target: fuzz_control_recv
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_control_recv/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_control_recv
+    libfuzzer: true
+    timeout: 30

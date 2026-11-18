@@ -1,0 +1,1 @@
+{"transaction_id":"t1","sid":"s1","protocol":"kcp","candidate_addrs":["1.2.3.4:5000"],"assisted_addrs":[],"detect_behavior":{"mode":0,"ttl":0,"send_delay_ms":0,"read_timeout":0,"candidate_ports":[],"send_random_ports":0,"listen_random_ports":0},"error":""}

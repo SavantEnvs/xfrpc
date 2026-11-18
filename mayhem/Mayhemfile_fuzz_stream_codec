@@ -1,0 +1,9 @@
+project: savantenvs/xfrpc
+target: fuzz_stream_codec
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_stream_codec/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_stream_codec
+    libfuzzer: true
+    timeout: 30
